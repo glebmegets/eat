@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  width: 1000px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.play{
+  font-size: 46px;
+  background: green;
+  border: none;
+  color: white;
+  width: 300px;
+  height: 70px;
+  border-radius: 4px;
+  box-shadow: inset 0 -7px 3px 0 darkgreen;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.window {
+  border: 1px solid white;
+  background: skyblue;
+  width: 10%;
+  height: 100px;
+}
+
+.cat {
+  width: 100%;
+}
+
+.time, .elements {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  background: white;
+  font-size: 26px;
+  border-radius: 100px;
+  padding: 5px 40px;
+  height: 40px;
+}
+.time__img {
+  width: 20px;
+}
+.window:hover {
+  background: lime;
+}
+.time:hover {
+  transform: scale(1.1)
+}
+.catPoint {
+  width: 30px;
+}
+
+.heart{
+  width: 30px;
+  height: 30px;
+}
+.hearts {
+   position: absolute;
+  right: 600px;
+  top: -50px;
+  border-radius: 100px;
+  background: white;
+  padding: 5px 20px;
+  height: 40px;
+}
+
+
+.elements {
+    position: absolute;
+  right: 200px;
+  top: -50px;
+}
+
+.you-win, .over {
+  position: absolute;
+  top: 100px;
+  width: 200px;
+  height: 110px;
+  background:#fd8c8c;
+  padding: 20px;
+  left: -300px;
+  transition: 1s;
+  z-index: 1000px;
+}
+
+.you-win {
+ background: #8aed63; 
+}
+.kitchen {
+  position: absolute;
+  right: 600px;
+  top: 145px;
+}
+
+
+
+button{
+    background: yellowgreen;
+    color: darkblue;
+    border-radius: 7px;
+    padding: 5px 20px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 0 7px 0;
+    cursor: pointer;
+}
+button:hover {
+  background: transparent;
+  border: 1px solid yellowgreen;
+}
+
+
+.cat, .cat-error{
+  width: 80px;
+
+}
+body{
+/* cursor: url(img/cat.cur);*/
+ cursor:  url(img/cat.cur) 4 12, auto;
+
+}
+
+button{
+
+}
+
+
+.players {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+
+.body-players {
+  background: white;
+  width: 700px;
+  height: 250px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  overflow: scroll;
+}
+
+
+.players img {
+  width: 150px;
+  height: 150px;
+}
+
+.cats{
+  padding-top: 6px;
+}
+
+.button{
+  width: 110px;
+  height: 80px;
+  background: skyblue;
+  top: 400px;
+  right: 40px;
+  position: absolute;
+  transition: 0.3s;
+  box-shadow: 0 0 7px 0 #0004;
+}
+.button:hover{
+background: violet;
+}
+
+
+
+
+.gallery {
+  display: flex;
+  height: 130px;
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 53%;
+/*  background: url(img/block.png);*/
+  background-size: 350px;
+      width: 100px;
+    overflow: hidden;
+
+}
+
+.gallery img {
+  width: 100px;
+}
+
+.select{
+     top: 145px;
+    left: 684px;
+    position: absolute;
+
+
+
+}
+
+
+
+
+
+.swiper-slide {
+      display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
