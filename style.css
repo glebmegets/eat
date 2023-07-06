@@ -13,22 +13,27 @@ img {
 }
 body {
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 200%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor:  url(img/cat.cur) 4 12, auto;
+
 }
 
+
+
 .game {
-  width: 1000px;
+  width: 100vw;
   background: white;
   border-radius: 10px;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
+  top: 100px;
 }
 
 .play{
@@ -59,9 +64,9 @@ body {
 }
 
 .time, .elements {
-  position: absolute;
+  pos/*ition: absolute;
   right: 0;
-  top: -50px;
+  top: -50px;*/
   background: white;
   font-size: 26px;
   border-radius: 100px;
@@ -86,9 +91,9 @@ body {
   height: 30px;
 }
 .hearts {
-   position: absolute;
+   /*position: absolute;
   right: 600px;
-  top: -50px;
+  top: -50px;*/
   border-radius: 100px;
   background: white;
   padding: 5px 20px;
@@ -97,32 +102,31 @@ body {
 
 
 .elements {
-    position: absolute;
+   /* position: absolute;
   right: 200px;
-  top: -50px;
+  top: -50px;*/
 }
 
 .you-win, .over {
   position: absolute;
-  top: 100px;
+  top: 20px;
   width: 200px;
-  height: 110px;
+  height: 80px;
   background:#fd8c8c;
   padding: 20px;
   left: -300px;
   transition: 1s;
-  z-index: 1000px;
+  z-index: 1000;
 }
 
 .you-win {
  background: #8aed63; 
 }
 .kitchen {
-  position: absolute;
-  right: 600px;
-  top: 145px;
 }
-
+.select {
+ margin-left: 20px;
+}
 
 
 button{
@@ -131,7 +135,6 @@ button{
     border-radius: 7px;
     padding: 5px 20px;
     border: none;
-    margin-top: 20px;
     box-shadow: 0 0 7px 0;
     cursor: pointer;
 }
@@ -145,11 +148,7 @@ button:hover {
   width: 80px;
 
 }
-body{
-/* cursor: url(img/cat.cur);*/
- cursor:  url(img/cat.cur) 4 12, auto;
 
-}
 
 button{
 
@@ -191,14 +190,14 @@ button{
 }
 
 .button{
-  width: 110px;
-  height: 80px;
+  height: 70px;
   background: skyblue;
-  top: 400px;
-  right: 40px;
+  top: 480px;
+  left: 80%;
   position: absolute;
   transition: 0.3s;
   box-shadow: 0 0 7px 0 #0004;
+  width: 100px;
 }
 .button:hover{
 background: violet;
@@ -225,44 +224,47 @@ background: violet;
   width: 100px;
 }
 
-.select{
-     top: 145px;
+.btns{
+    /* top: 145px;
     left: 684px;
     position: absolute;
 
+*/
 
+}
+.bottom {
+  position: absolute;
+  top: 480px;
+  left: 40px;
+}
+
+
+.panel{
+  left: 200px;
+  top: 30px;
+  position: absolute;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 
 }
 
 
-
-
-
 .swiper-slide {
-      display: flex;
+    display: flex;
     align-items: center;
 }
 
 
 
+@media screen and (max-width: 1450px) {
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
