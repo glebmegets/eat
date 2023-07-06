@@ -1,17 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="menu.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EAT and ANIMALS</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="index.html" class="start">зайти в гру</a>	
+
+<audio>
+  <source src="audio.mp3">
+</audio>
+
+<div class="bottom">
+  
+  <div class="btns">
+    <button class="kitchen change-player">change </button>
+    <button class="select">select</button>
+  </div>
+  
+</div>
+
+<div class="over">
+  <h3>Ви програли!</h3>
+  <button class="over-btn">Почати спочатку</button>
+</div>
+
+<div class="panel">
+  <div class="hearts">
+    <img class="heart" src="img/heart.png" alt="">
+    <img class="heart" src="img/heart.png" alt="">
+    <img class="heart" src="img/heart.png" alt="">
+    <img class="heart" src="img/heart.png" alt="">
+    <img class="heart" src="img/heart.png" alt="">
+  </div>  
+
+
+
+
+    <div class="elements">
+      <h6 class="cats">0</h6>
+    </div>
+
+    <div class="time">
+      <span class="minutes">00</span> :
+      <span class="second">00</span>
+      <img src="https://assets.codepen.io/9181344/time.gif" alt="" class="time__img">
+    </div>
+  </div>
+
+
+
+<div class="you-win">
+  <h3>Ви виграли!</h3>
+  <button class="new-level">New Level</button>
+
+</div>
+
+<div class="game">
+  
+
+
+
+
+<!-- <div class="level">
+  <select name="" id="">
+    <option value="">Easy</option>
+    <option value="">Medium</option>
+    <option value="">Hard</option>
+  </select>
+</div> -->
+
+
+
+
+<div class="players">
+  <div class="body-players">
+  <img src="https://picsum.photos/200" alt="">
+  <img src="https://picsum.photos/200" alt="">
+  <img src="https://picsum.photos/200" alt="">
+  <img src="https://picsum.photos/200" alt="">
+  <img src="https://picsum.photos/200" alt="">
+  <img src="https://picsum.photos/200" alt="">
+  <img src="https://picsum.photos/200" alt="">
+  <img src="https://picsum.photos/200" alt="">
+  <img src="https://picsum.photos/200" alt="">
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+<!--   <button class="play">Play</button> -->
+  <div class="main">
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    <div class="window"></div>
+    
+  </div>
+</div>  
+
+<button class="button">background kitchen</button>
+
+
+
+<div class="gallery">
+<!--   <img src="https://player.playtix.io/assets/eggs/limited_egg.png" alt="">
+<img src="img/колбаска.jpg" alt="">
+<img src="img/яйцо.jfif" alt="">
+<img src="img/салат.jpg" alt="">
+<img src="img/сир.jfif" alt="">
+<img src="img/собачка.jfif" alt="">
+<img src="img/котик.png" alt=""> -->
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <img class="cat2" src="img/cat2.png" alt="">
+        
+    </div>
+    <div class="swiper-slide">
+      <img class="cat3" src="img/cat3.png" alt="">
+      
+    </div>
+    <div class="swiper-slide">
+     <img class="dog2" src="img/dog2.png" alt="">
+      
+    </div>
+    <div class="swiper-slide">
+     <img class="fish" src="img/fish
+     .png" alt="">
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
+
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+
 </body>
 </html>
-
-
 
 
 
