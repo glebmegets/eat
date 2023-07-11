@@ -7,20 +7,20 @@ body{
 
 .start {
 	background: lime;
-top: 350px;
-left: 600px;
-position: absolute;
-border: 0;
-font-size: 32px;
-width: 200px;
-height: 60px;
-border-radius: 10px;
-color: black;
-display: flex;
-align-items: center;
-justify-content: center;
-text-decoration: none;
-box-shadow: 0 5px 7px rgba(0, 0, 0, 55%);
+	top: calc(50vh - 30px);
+	left: calc(50% - 100px);
+	position: absolute;
+	border: 0;
+	font-size: 32px;
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	box-shadow: 0 5px 7px rgba(0, 0, 0, 55%);
 
 }
 
