@@ -198,12 +198,14 @@ if (count == 3) {
 
 $('.change-player').click(function () {
   $('.gallery').css('display', 'flex')
+  $('.a1').css('display', 'flex')
 })
 
 $('.select').click(function () {
   let d = document.getElementsByClassName('swiper-slide-active')[0].getElementsByTagName('img');
-  alert(d[0].classList[0])
+  // alert(d[0].classList[0])
   name = d[0].classList[0]
+  $('.a1').hide()
 
   $('.cat-error').attr('src', d[0].src)
 
